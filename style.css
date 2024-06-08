@@ -1,0 +1,111 @@
+body{
+  background-image: url("back-pic2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: auto;
+  overflow: hidden;
+}
+
+.heading{
+font-size: 55px;
+color: gold;
+filter: drop-shadow(6px 5px 12px gold);
+text-shadow: 3px 1px rgba(0, 0, 0, 0.671);
+}
+.input-group{
+  position: relative;
+  width: 300px;
+  top: 50px;
+  left: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  width: 220px;
+}
+
+.input-box{
+  display: flex;
+  flex-direction: row;
+}
+
+.label1{
+  color: gold;
+  filter: drop-shadow(6px 5px 10px gold);
+  text-shadow: 3px 1px rgba(0, 0, 0, 0.671);
+}
+
+.label2{
+  color: gold;
+filter: drop-shadow(6px 5px 10px gold);
+text-shadow: 3px 1px rgba(0, 0, 0, 0.671);
+}
+
+
+.resultheart{
+  width: 150px;
+
+}
+
+.heart{
+  width: 60px;
+  display: flex;
+  margin-top: 300px;
+  margin-right: 450px;
+ 
+}
+
+
+.heart-animation{
+  transform: translate(-50%,-50%);
+  animation: heart ease-in-out 2s infinite;
+  filter: drop-shadow(0px 0px 3px rgb(255, 0, 179));
+}
+
+@keyframes heart{
+  0%{ width: 60px;
+  }
+  50%{width: 66px;
+  }
+  100%{width: 60px;}
+}
+
+
+.button{
+  height: 30px;
+  width: 100px;
+  margin-left: 25px;
+  color: blue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color:transparent;
+  border: 2px solid rgb(3, 3, 211);
+}
+
+.button:hover{
+  background-color: rgb(254, 55, 29);
+  color: white;
+  border: 2px solid rgb(134, 5, 5);
+  filter: drop-shadow(0px 0px 10px rgb(245, 5, 213));
+}
+
+.result{
+  position: absolute;
+  top: 220px;
+  left: 75px;
+  font-size: 20px;
+  color: white;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.644);
+}
+
+.result2{
+  position: absolute;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+  top: 280px;
+  font-size: 19px;
+  color:rgb(240, 6, 220);
+  left: 1px;
+  text-shadow: 2px 0px 4px blue;
+}
